@@ -8,7 +8,7 @@
 }
 
 button {
-  border-style: none !important
+  border-style: none !important;
 }
 html {
   font-size: 10px;
@@ -499,7 +499,7 @@ hr {
   margin: 1vh 0;
   border: none;
   color: rgba(39, 63, 125, 1);
-  background-color:rgba(39, 63, 125, 1);
+  background-color: rgba(39, 63, 125, 1);
   height: 1px;
 }
 .content-pay {
@@ -600,10 +600,9 @@ hr {
   position: absolute;
   top: 20%;
 }
-.pay-number-text-main{
+.pay-number-text-main {
   font-size: 2.2rem;
   line-height: 90%;
-
 }
 
 .footer--pay {
@@ -612,11 +611,21 @@ hr {
 }
 .active--pay hr {
   border: none;
-  color: white; 
+  color: white;
   background-color: white;
   height: 1px;
 }
+.text-pay-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 110%;
+  /* or 15px */
 
+  text-align: center;
+
+  color: #ffffff;
+}
 .full_time {
   margin-top: 15%;
 }
